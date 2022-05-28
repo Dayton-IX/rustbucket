@@ -15,7 +15,7 @@ fn index() -> &'static str {
 
         GET /<id>
 
-            responds with the content of the page with the given ID.
+            responds with the content of the paste with the given ID.
     "
 }
 

@@ -1,5 +1,8 @@
 #[macro_use] extern crate rocket;
 
+mod paste_id;
+use paste_id::PasteId;
+
 #[launch]
 fn rocket() -> _ {
     rocket::build().mount("/", routes![index])

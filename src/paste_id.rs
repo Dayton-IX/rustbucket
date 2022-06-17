@@ -4,6 +4,7 @@ use rocket::request::FromParam;
 
 use rand::{self, Rng};
 
+#[derive(UriDisplayPath)]
 pub struct PasteId<'a>(Cow<'a, str>);
 
 
